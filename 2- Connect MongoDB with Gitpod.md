@@ -57,6 +57,23 @@
 
 - Cliquer sur Close
 
+![image](https://user-images.githubusercontent.com/123749462/225680330-10d225ce-55ee-4242-ab22-4c23fe760931.png)
+
+- Cliquer sur Add Connexion : 
+
+![image](https://user-images.githubusercontent.com/123749462/225681048-b5acc56c-cc4f-483f-a56d-f2cc2bc0abf2.png)
+
+- Cliquer sur Coonect :
+
+![image](https://user-images.githubusercontent.com/123749462/225681693-a7b634bb-cde0-4e82-91e6-671c1e03ab8f.png)
+
+- Coller ici la ligne que vous avez copier en remplacant <password> avec le mot de passe que vous avez créer :
+  
+  ![image](https://user-images.githubusercontent.com/123749462/225683056-1c789d61-7bcc-4084-9cac-25fe77176b08.png)
+- Cliquer sur Entrer 
+- Cliquer sur Create playground :
+  
+  ![image](https://user-images.githubusercontent.com/123749462/225685200-380b394f-59b1-4d6f-8d34-510d4dafda8a.png)
 
 
 
