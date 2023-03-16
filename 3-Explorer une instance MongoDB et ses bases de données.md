@@ -29,8 +29,17 @@ show dbs
 
 Comme vous pouvez le voir, il y a deux bases de données déjà créées par défaut. Elles sont utilisées par MongoDB lui-même pour stocker les utilisateurs, la configuration et d'autres données.
 
-* En tant que débutants, nous ne sommes pas vraiment concernés par ces bases, mais puisqu'elles sont là et que nous sommes curieux, il n'y a aucun mal à y jeter un coup d'œil. Par exemple, voyons ce qu'il y a dans la BDD admin.
+
+- Maintenant, nous allons créer une collection.
+- Une collection, dans la nomenclature NoSQL, est conceptuellement similaire à une table dans les bases de données relationnelles. Cependant, dans le contexte d'une base de données documentaire NoSQL, elle est nommée à juste titre collection, puisqu'il s'agit, en fait, d'une collection de différents documents.
 
 ```
-use admin
-```
+ db.createCollection("myFirstCollection")
+ ```
+![image](https://user-images.githubusercontent.com/123749462/225695722-62226618-13dd-43af-a768-2456c159dc2a.png)
+
+- Maintenant, si nous exécutons `show dbs`, nous pouvons voir que notre base de données a été correctement créée. Et si nous exécutons `show collections`, nous pouvons voir que notre première collection a également été créée. 
+
+![image](https://user-images.githubusercontent.com/123749462/225696971-d0511f6e-da43-4b86-bdc0-c4db958e6d0f.png)
+
+- Félicitations ! Vous venez d'explorer votre première instance, base de données et collection MongoDB. Vous avez eu un aperçu de ce qu'est un document et vous avez créé votre première base de données et votre première collection. Dans notre prochaine tâche, nous allons créer notre premier document.
