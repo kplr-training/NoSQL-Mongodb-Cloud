@@ -74,6 +74,10 @@
 - Cliquer sur Create playground :
   
   ![image](https://user-images.githubusercontent.com/123749462/225685200-380b394f-59b1-4d6f-8d34-510d4dafda8a.png)
+  
+  - Ensuite vous allez avoir un fichier qui s'ouvre : MongoDB Playground : ctrl+A > supprimer tous le contenu du fichier 
+
+  ![image](https://user-images.githubusercontent.com/123749462/225689851-c6959cb3-b566-47cd-ba83-4230ab986325.png)
 
 
 
