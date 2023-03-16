@@ -42,4 +42,7 @@ Comme vous pouvez le voir, il y a deux bases de données déjà créées par dé
 
 ![image](https://user-images.githubusercontent.com/123749462/225696971-d0511f6e-da43-4b86-bdc0-c4db958e6d0f.png)
 
+![image](https://user-images.githubusercontent.com/123749462/225767224-492a05b5-2863-4b52-94a5-db1ca12036a3.png)
+
+
 - Félicitations ! Vous venez d'explorer votre première instance, base de données et collection MongoDB. Vous avez eu un aperçu de ce qu'est un document et vous avez créé votre première base de données et votre première collection. Dans notre prochaine tâche, nous allons créer notre premier document.
