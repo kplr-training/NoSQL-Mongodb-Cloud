@@ -44,5 +44,5 @@ db.posts.find()
 
 - Comme vous pouvez le voir, MongoDB a ajouté un champ pour nous, qui s'appelle `_id`. Il s'agit d'un identifiant unique de notre document. Si nous l'avions voulu, nous aurions pu passer outre en ajoutant un champ `_id` à notre propre document, lors de son insertion, avec une clé primaire qui aurait pu avoir un sens pour nous. 
 
-Nous avons donc appris comment lancer notre premier document et certains des types de données que MongoDB gère, comme les chaînes de caractères, les tableaux de dates et les entiers, les documents intégrés et les GeoJSON. Donc, dans la prochaine tâche, nous allons commencer à interroger notre base de données et à mettre à jour les documents.
+- Nous avons donc appris comment lancer notre premier document et certains des types de données que MongoDB gère, comme les chaînes de caractères, les tableaux de dates et les entiers, les documents intégrés et les GeoJSON. Donc, dans la prochaine tâche, nous allons commencer à interroger notre base de données et à mettre à jour les documents.
 
