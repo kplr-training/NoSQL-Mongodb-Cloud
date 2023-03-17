@@ -1,3 +1,9 @@
+# Qu'est ce qu'un pipeline d'aggrégation dans mongodb :
+- Un pipeline d'agrégation dans MongoDB est une suite de plusieurs étapes qui permettent de traiter et d'analyser les données dans une collection MongoDB. 
+- Le pipeline d'agrégation utilise une syntaxe spéciale pour spécifier les étapes de traitement des données et peut être utilisé pour effectuer des opérations telles que la fusion de données, la filtration, la transformation, le tri, le groupement, la mise en correspondance et l'analyse statistique.
+
+- Les pipelines d'agrégation sont particulièrement utiles pour traiter de grandes quantités de données dans une collection MongoDB, car ils permettent d'effectuer des opérations complexes en une seule requête. 
+- Les résultats de chaque étape du pipeline sont passés à l'étape suivante, ce qui permet de créer des flux de travail complexes pour analyser et traiter les données.
 # Comment créer un pipeline d'agrégation dans MongoDB Atlas :
 
 
