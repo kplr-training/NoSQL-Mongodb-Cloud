@@ -11,5 +11,16 @@
 - Le Sample Dataset comprend plusieurs collections, chacune avec des données liées à un domaine spécifique. Par exemple, la collection "restaurants" contient des informations sur les restaurants, tels que leur nom, leur adresse et leur type de cuisine. La collection "airbnb" contient des informations sur les annonces de location sur Airbnb, telles que leur emplacement, leur prix et leur disponibilité.
 
 - L'utilisation du Sample Dataset peut vous aider à comprendre comment structurer vos données, comment interroger les données à l'aide du langage de requête de MongoDB (MongoDB Query Language, ou MQL), et comment utiliser les fonctionnalités avancées de MongoDB, telles que les agrégations et les index.
-- Pour utiliser Sample Dataset : Cliquer sur cette icone de trois point : 
+- Pour utiliser Sample Dataset : Cliquer sur cette icone de trois point :
+
+![image](https://user-images.githubusercontent.com/123749462/225950564-b4d0b8eb-283e-4dfb-8c44-0ddfd6c0ae20.png)
+
+- Puis cliquer sur Load Sample Dataset .
+
+![image](https://user-images.githubusercontent.com/123749462/225950859-af9f5d6f-e719-4727-91aa-fa521d65a8b5.png)
+
+- Attendre jusqu'à la création du sample dataset .
+- 
+
+
 
