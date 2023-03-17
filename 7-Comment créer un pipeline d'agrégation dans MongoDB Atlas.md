@@ -97,8 +97,65 @@ cast : "Ryan Reynolds"
 
 - Ajouter un nouveau stage avec add stage :
 - Avec la fonction d'aggregation $match 
+
+![image](https://user-images.githubusercontent.com/123749462/225982141-31e231f7-b692-47ea-9cf5-3593a227faa5.png)
+
 - Le deuxième $match avec la condition "cast: 'ryan reynolds'" est utilisé pour filtrer à nouveau les documents, cette fois-ci en recherchant ceux qui ont "Ryan Reynolds" dans leur liste de casting individuelle (et non dans leur liste de casting globale). 
+
+![image](https://user-images.githubusercontent.com/123749462/225982520-c04eb2f2-7b1d-45a8-8a08-0340af3b8f59.png)
+
 - Cela permet de trouver tous les documents qui ont "Ryan Reynolds" comme acteur principal, plutôt que comme l'un des nombreux acteurs du casting.
+
+- Ajouter un nouveau stage en cliquant sur Add Stage 
+- Sélectionner $group : 
+
+![image](https://user-images.githubusercontent.com/123749462/225984894-6631fae4-a287-4064-9b92-a2864e80e9d4.png)
+
+- L'ajout d'un nouveau stage $group avec les étapes suivantes permet d'effectuer une agrégation des résultats précédents en regroupant les documents selon un champ spécifié :
+- Remplacer 
+```
+{
+  _id: expression,
+  fieldN: {
+    accumulatorN: expressionN
+  }
+}
+```
+- Par : 
+```
+{
+  _id: 1,
+  cast: {
+    $first: "$cast"
+  }
+}
+```
+
+![image](https://user-images.githubusercontent.com/123749462/225987388-63852511-1425-42f2-afe2-b4bd49f0917a.png)
+- Dans ce cas, le champ _id est défini comme 1, ce qui signifie que tous les documents seront regroupés dans un seul groupe. Le champ "cast" est ensuite agrégé à l'aide de l'opération $first, qui renvoie la première valeur non-nulle pour ce champ. Cela permet de récupérer la liste de casting pour chaque document regroupé.
+
+- En outre, le champ "screen_time" est calculé en utilisant l'opération $sum pour ajouter la valeur de chaque document dans le champ "runtime". Cela permet de calculer le temps total à l'écran pour tous les documents regroupés. 
+
+- Ajouter un nouveau stage $project :
+
+![image](https://user-images.githubusercontent.com/123749462/225988682-25c1fd2b-32c3-452e-b064-90a4e8372e45.png)
+
+- Remplacer : 
+
+```
+{
+  specification(s)
+}
+``` 
+- Par : 
+
+```
+{
+  _id: 0
+}
+```
+![image](https://user-images.githubusercontent.com/123749462/225990041-23d8436f-0a91-48b1-9840-3d9b6be8b85b.png)
+
 
 
 
