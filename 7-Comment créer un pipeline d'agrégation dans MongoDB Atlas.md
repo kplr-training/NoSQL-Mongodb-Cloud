@@ -29,6 +29,16 @@
 
 ![image](https://user-images.githubusercontent.com/123749462/225952463-6b65aad3-6346-4609-a60c-ac6abfbd137c.png)
 
+- Vous pouvez utiliser l'interface utilisateur Atlas pour traiter vos données en créant 
+pipelines d'agrégation
+
+# pipelines d'agrégation
+
+- Les pipelines d'agrégation transforment vos documents en résultats agrégés en fonction des 
+étapes du pipeline .
+
+- Le générateur de pipeline d'agrégation Atlas est principalement conçu pour créer des pipelines, plutôt que de les exécuter.
+
 
 
 
