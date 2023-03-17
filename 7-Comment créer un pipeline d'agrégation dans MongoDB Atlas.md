@@ -20,7 +20,15 @@
 ![image](https://user-images.githubusercontent.com/123749462/225950859-af9f5d6f-e719-4727-91aa-fa521d65a8b5.png)
 
 - Attendre jusqu'à la création du sample dataset .
-- 
+- Pour pouvoir visualiser les databases qu'on a créé : 
+- Allez sur Collections :
+
+![image](https://user-images.githubusercontent.com/123749462/225951838-fcc125a8-700e-4626-9a18-2d36a134dd3e.png)
+
+- Vous pouvez voir ici qu'on a créé 10 databases avec 24 collections : 
+
+![image](https://user-images.githubusercontent.com/123749462/225952463-6b65aad3-6346-4609-a60c-ac6abfbd137c.png)
+
 
 
 
