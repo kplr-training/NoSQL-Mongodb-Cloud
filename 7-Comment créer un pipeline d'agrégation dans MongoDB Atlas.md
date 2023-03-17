@@ -156,6 +156,10 @@ cast : "Ryan Reynolds"
 ```
 ![image](https://user-images.githubusercontent.com/123749462/225990041-23d8436f-0a91-48b1-9840-3d9b6be8b85b.png)
 
+- Voici le pipeline qu'on a créé : 
+
+![image](https://user-images.githubusercontent.com/123749462/225991299-537181b3-d216-4b85-8645-312655169014.png)
+
 
 
 
