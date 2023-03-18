@@ -66,8 +66,22 @@
 
 ![image](https://user-images.githubusercontent.com/123749462/226074545-5e6f95e5-9207-4c73-86bc-232ab7f1d9f7.png)
 
+- Attendre  ce que notre search index passe du status NotStarted à Active
 
+![image](https://user-images.githubusercontent.com/123749462/226074744-ffa02df5-0699-41d9-a884-44ad513fe905.png)
 
+![image](https://user-images.githubusercontent.com/123749462/226074779-8f4d1f64-65d5-4f40-8b59-c454913940a6.png)
+
+- Cliquer sur query :
+![image](https://user-images.githubusercontent.com/123749462/226074916-331f8b93-19d3-48aa-857e-8ceeb7cadcc3.png)
+
+-   Dans Search tester on peut rechercher des documents dans MongoDB Atlas Search :
+
+![image](https://user-images.githubusercontent.com/123749462/226075247-b86771b0-853f-450d-9161-7c3ebbf00f2b.png)
+
+- Par exemple si on veut chercher les document qui contient le mot PARIS il suffit de faire une recherche avec Search Tester :
+
+![image](https://user-images.githubusercontent.com/123749462/226075378-46e03957-fb2d-4395-942e-8cf3f7f7756a.png)
 
 
 
