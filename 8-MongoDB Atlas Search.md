@@ -18,15 +18,18 @@
 
 ![image](https://user-images.githubusercontent.com/123749462/226071736-a6cc2edb-bf86-4ec7-9b97-6a5e392adfa8.png)
 
-- Cliquer sur JSON Editor > Next :
+- Cliquer sur Visual Editor > Next :
 
-![image](https://user-images.githubusercontent.com/123749462/226071966-dd9b4715-8210-48e0-a956-b5e8fcf7860e.png)
+![image](https://user-images.githubusercontent.com/123749462/226072623-5e3af41a-64a2-4c2e-a976-948fe45fc2eb.png)
 
-- Le JSON Editor permet aux utilisateurs de créer et de modifier des index de recherche en utilisant du code JSON. 
-- Les utilisateurs peuvent saisir manuellement le code JSON ou importer des fichiers JSON existants pour créer des index. Cela offre une grande flexibilité pour personnaliser et affiner les index, mais nécessite une certaine connaissance de la syntaxe JSON.
-- Ajouter le nom de la database et de la collection > cliquer sur Next :
+- Le Visual Editor est une interface graphique pour créer et modifier des index de recherche en utilisant une approche plus intuitive. 
+- Les utilisateurs peuvent sélectionner les champs à inclure dans l'index, configurer les options de recherche et de tri, et visualiser les résultats en temps réel. 
+- Le Visual Editor est plus convivial pour les utilisateurs moins expérimentés ou pour ceux qui préfèrent une approche visuelle.
 
-![image](https://user-images.githubusercontent.com/123749462/226072191-f93d2fa0-8c88-46aa-aaca-5a8a48f9b57a.png)
+- Donner un nom à votre index , choisir le nom de la database sample_airbnb et la collection listingAndReviews > Cliquer sur Next 
+
+![image](https://user-images.githubusercontent.com/123749462/226072783-0bf0f68a-d83b-4ef7-8778-f49f80dc00fa.png)
+
 
 
 
