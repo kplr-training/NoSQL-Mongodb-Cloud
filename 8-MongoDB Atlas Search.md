@@ -35,7 +35,7 @@
 
 ![image](https://user-images.githubusercontent.com/123749462/226073593-db03e36b-1aa5-451b-814d-9ec145c90d28.png)
 
--Dans MongoDB Atlas Search, l'index analyzer "lucene.standard" est utilisé pour traiter le texte à indexer dans un moteur de recherche. Tout comme dans Lucene, l'analyseur transforme le texte en tokens ou termes qui sont ensuite indexés pour permettre des recherches rapides et précises. L'analyseur "lucene.standard" dans MongoDB Atlas Search inclut également la suppression des mots vides et la racinisation des termes.
+- Dans MongoDB Atlas Search, l'index analyzer "lucene.standard" est utilisé pour traiter le texte à indexer dans un moteur de recherche. Tout comme dans Lucene, l'analyseur transforme le texte en tokens ou termes qui sont ensuite indexés pour permettre des recherches rapides et précises. L'analyseur "lucene.standard" dans MongoDB Atlas Search inclut également la suppression des mots vides et la racinisation des termes.
 
 - Le search analyzer "lucene.standard" est utilisé lors de la recherche dans MongoDB Atlas Search. Il effectue un traitement similaire à l'index analyzer, mais peut également inclure des stratégies de recherche telles que la normalisation des termes et l'expansion de requête.
 
